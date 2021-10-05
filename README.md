@@ -54,6 +54,6 @@ main.py provides the sample code for FWN with cross-validation and holdout data 
 
 Citations
 -----------
-Dalwinder Singh and Birmohan Singh, *[Feature wise normalization: An effective way of normalizing data](https://www.sciencedirect.com/science/article/pii/S0031320321004878)*, Pattern Recognition, 2021 [Accepted]
+Dalwinder Singh and Birmohan Singh, *[Feature wise normalization: An effective way of normalizing data](https://www.sciencedirect.com/science/article/pii/S0031320321004878)*, Pattern Recognition, Volume 122, 2022
 
 Dalwinder Singh and Birmohan Singh, *[Investigating the impact of data normalization on classification performance](https://doi.org/10.1016/j.asoc.2019.105524)*, Applied Soft Computing, Volume 97, Part B, 2020
