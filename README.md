@@ -28,8 +28,8 @@ MM  : Min-Max
 MX  : Max
 DS  : Decimal Scaling
 MD  : Median and Median Absolute Deviation
-TN  : ***Tanh***
-VTN : Variant ***Tanh***
+TN  : Tanh
+VTN : Variant Tanh
 HT  : Hyperbolic Tangent
 
 PARAMETERS
