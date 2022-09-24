@@ -7,7 +7,7 @@ How to Use
 
 1. Download the code and install the REQUIRED PACKAGES
 ```
-* numpy == 1.19.5
+* numpy == 1.22.0
 * scikit_learn == 0.24.2
 * matplotlib == 3.4.2
 ```
