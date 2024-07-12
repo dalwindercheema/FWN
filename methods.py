@@ -39,7 +39,7 @@ class wrapper:
     
     def zscore(self,train,test):
         mn = numpy.mean(train)
-        st = numpy.std(test)
+        st = numpy.std(train)
         if(st == 0):
             st = numpy.finfo(numpy.float).eps
         n_train = (train - mn) / st
@@ -48,7 +48,7 @@ class wrapper:
     
     def paretoscaling(self,train,test):
         mn = numpy.mean(train)
-        st = numpy.std(test)
+        st = numpy.std(train)
         if(st == 0):
             st = numpy.finfo(numpy.float).eps
         n_train = (train - mn) / sqrt(st)
@@ -77,7 +77,7 @@ class wrapper:
 
     def minmax(self,train,test,ntype):
         mn = amin(train,axis=0)
-        mx = amax(test,axis=0)
+        mx = amax(train,axis=0)
         x1 = (train - mn) / (numpy.finfo(numpy.float).eps + mx - mn)
         x2 = (test - mn) / (numpy.finfo(numpy.float).eps + mx - mn)
         if(ntype == 1):
